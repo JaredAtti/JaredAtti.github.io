@@ -1,0 +1,92 @@
+body {
+	border: 10px solid #50C878;
+	margin: 0;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    width: 100%;
+    z-index: 3;
+}
+
+header .title {
+    color: #868e96;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+header .title span {
+    font-family: Calibri;
+    color: #50C878;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+header ul {
+	font-family: Calibri;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+header ul li {
+    float: left;
+}
+
+header ul li a {
+    display: block;
+    padding: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+header ul li a i {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header ul li a, header ul li a:hover i {
+    background-color: #ffffff;
+}
+
+header ul li a:hover, header ul li a i {
+    background-color: #AFE1AF;
+}
+
+main {
+	display: flex;
+	max-width: 90%;
+	padding: 20px 10px;
+	margin: 0 auto;
+	font-size: 40px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+	font-size: 30px;
+}
+
+img {
+	border: 5px solid #50C878;
+	border-radius: 200px;
+	
+	float: right;
+}
+
+* {
+	box-sizing: border-box;
+}
